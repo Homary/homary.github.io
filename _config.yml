@@ -5,7 +5,7 @@ description: 上天不会创造人上人,也不会创造人下人.
 highlighter: null
 permalink: /:title
 
-gitment
+#gitment
 comment_gitment_repo: homary.github.io
 comment_gitment_clientId: 9c7c3e7fbb9b4c5e7a91
 comment_gitment_clientSecret: 9c6cebb94e356bc42446139820daf288f98bb1bb
