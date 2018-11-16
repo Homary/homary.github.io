@@ -4,7 +4,7 @@ description: 上天不会创造人上人,也不会创造人下人.
 
 highlighter: null
 permalink: /:title
-
+intensedebate_comments: true
 url:
 baseurl:
 
