@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-Hello, world!
+> 我不想生命被时光遗忘,所以努力学习.
