@@ -13,9 +13,6 @@ layout: default
 <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
 <script src="https://billts.site/js/gitment.js"></script>
 <script>
-    let f_dom = document.querySelector('.gitment-footer-container');
-    f_dom.parentNode.removeChild(f_dom);
-    
     var gitment = new Gitment({
         id: '<%= page.date %>',
         owner: 'Homary',
@@ -25,6 +22,9 @@ layout: default
             client_secret: '{{site.comment_gitment_clientSecret}}',
         },
     });
-    gitment.render('gitmentContainer')
+    gitment.render('gitmentContainer');
+
+    let f_dom = document.querySelector('.gitment-footer-container');
+    f_dom.remove();
 </script>
 {% endif %}
