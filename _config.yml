@@ -1,10 +1,16 @@
-title: 岁月尘沙
+title: 岁月沉沙
 author: Homary
 description: 上天不会创造人上人,也不会创造人下人.
 
 highlighter: null
 permalink: /:title
-intensedebate_comments: true
+gitment:
+  enable: true
+  githubID: Homary
+  repo: homary.github.io
+  ClientID: 9c7c3e7fbb9b4c5e7a91
+  ClientSecret: 9c6cebb94e356bc42446139820daf288f98bb1bb
+  lazy: true
 url:
 baseurl:
 
